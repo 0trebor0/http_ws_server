@@ -12,19 +12,14 @@
   "repository": "0trebor0/HTTP-WS-Server",
   "contributors": [],
   "dependencies": {
-    "cookie": "^0.4.1",
-    "formidable": "^1.2.2",
-    "fs": "0.0.1-security",
-    "http": "0.0.0",
-    "https": "^1.0.0",
+    "cookie": "^0.7.2",
+    "formidable": "^3.5.4",
     "mime-types": "^2.1.21",
-    "url": "^0.11.0",
     "ws": "^7.2.3"
   },
   "main": "lib/simpleHTTP.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "Hello Test"
+    "test": "node --test"
   },
   "license": "MIT",
   "description": "HTTP-WS-Server"

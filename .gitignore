@@ -1,3 +1,10 @@
 /node_modules
 /package-lock.json
 /uploads
+
+# Credentials read by config.ssl and process.env.COOKIE_SECRET
+.env
+.env.*
+*.pem
+*.key
+*.crt
